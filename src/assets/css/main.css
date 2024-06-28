@@ -1,0 +1,82 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+/* @import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,501&display=swap"'); */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* @import '../font/Satoshi-Regular.otf'; */
+
+/* tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* instantiate font family */
+.manrope{
+    font-family: 'Manrope', sans-serif !important;
+}
+
+.satoshi{
+    font-family: 'Satoshi', sans-serif;
+}
+
+.work-sans{
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+*{
+    font-family: 'Satoshi', sans-serif;
+}
+
+body,html{
+    background-color: #051724;
+}
+
+body{
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    object-fit: cover;
+}
+
+.main-button{
+    color: black;
+    font-weight: 700;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+    /* background-color:#F0CF7B; */
+}
+
+.vue-skeletor:not(.vue-skeletor--shimmerless):after {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.071), rgba(37, 22, 22, 0)) !important;
+    content: '' !important;
+}
+
+/* .container{
+    aspect-ratio: 16/auto !important;
+} */
+
+
+.mobile-nav{
+    transition: opacity 500ms ease-in, height 500ms ease-in;
+}
+
+footer button{
+    color: #F0CF7B;
+    transition: 500ms;
+}
+
+footer button.policy{
+    color: #fff;
+}
+
+/* footer .container button:hover{
+    color:rgba(255, 255, 255, 0.234), 255, 255);
+} */
