@@ -85,7 +85,7 @@ watch(route, (newValue, oldValue) => {
         <img
           alt="Vue logo"
           class="logo md:!block hidden cursor-pointer ml-[12px]"
-          src="../assets/images/jollofradio-horizontal.png"
+          src="../assets/images/bug.png"
           width="62"
           height="85"
           @click="$router.push('/')"

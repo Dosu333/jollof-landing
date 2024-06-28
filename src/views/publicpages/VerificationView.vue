@@ -99,7 +99,7 @@ const continueProcess = () => {
         <div class="pulse"></div>
       </div>
       <div class="flex justify-center">
-        <img class="w-[100px]" src="../../assets/images/jollofradio-horizontal.png" alt="logo" />
+        <img class="w-[100px]" src="../../assets/images/bug.png" alt="logo" />
       </div>
       <h2 class="font-bold text-[1.5em] text-[#ffffff] tracking-wide text-center">
         Account Verification{{ errorLog ? ' Failed' : ' Successful' }}.
