@@ -84,14 +84,6 @@ watch(route, (newValue, oldValue) => {
       >
         <img
           alt="Vue logo"
-          class="logo md:!block hidden cursor-pointer ml-[12px]"
-          src="../assets/images/jollofradio-horizontal.png"
-          width="62"
-          height="85"
-          @click="$router.push('/')"
-        />
-        <img
-          alt="Vue logo"
           class="logo md:hidden cursor-pointer ml-[12px]"
           src="../assets/images/jollofradio.png"
           width="90"
